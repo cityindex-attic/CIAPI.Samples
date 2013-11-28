@@ -46,9 +46,9 @@ namespace Before_STREAMINGALL_adapater
 					Console.WriteLine("Price at {0:O} is {1}", message.Data.TickDate, message.Data.Price); 
 				};
 
-				Console.WriteLine("Listening for 30 seconds - check the number of open connections");
+				Console.WriteLine("Listening for 120 seconds - check the number of open connections");
 				var gate = new ManualResetEvent(false);
-				gate.WaitOne(TimeSpan.FromSeconds(30));
+				gate.WaitOne(TimeSpan.FromSeconds(120));
 			}
 			finally
 			{

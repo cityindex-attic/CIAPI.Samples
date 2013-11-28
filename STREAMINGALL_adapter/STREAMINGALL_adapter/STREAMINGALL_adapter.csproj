@@ -35,9 +35,6 @@
     <Reference Include="Salient.ReflectiveLoggingAdapter.35">
       <HintPath>..\packages\Salient.ReflectiveLoggingAdapter.3.2.0\lib\net35\Release\Salient.ReflectiveLoggingAdapter.35.dll</HintPath>
     </Reference>
-    <Reference Include="Salient.ReliableHttpClient">
-      <HintPath>..\packages\Salient.ReliableHttpClient.1.4.5\lib\net35\Release\Salient.ReliableHttpClient.dll</HintPath>
-    </Reference>
     <Reference Include="Salient.ReliableHttpClient.Serializer.Newtonsoft">
       <HintPath>..\packages\Salient.ReliableHttpClient.1.4.5\lib\net35\Release\Salient.ReliableHttpClient.Serializer.Newtonsoft.dll</HintPath>
     </Reference>
@@ -54,6 +51,9 @@
       <HintPath>..\packages\CIAPI.10.10.0\lib\net35\Release\CIAPI.dll</HintPath>
     </Reference>
     <Reference Include="System.Configuration" />
+    <Reference Include="Salient.ReliableHttpClient">
+      <HintPath>..\packages\Salient.ReliableHttpClient.1.4.4-bleeding-38\lib\net35\Debug\Salient.ReliableHttpClient.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
